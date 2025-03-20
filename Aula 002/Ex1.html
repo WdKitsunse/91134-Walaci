@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com Tabelas</title>
+</head>
+<body>
+   <style>
+    .tabela1{
+        background-color: crimson;
+    }
+        .tabela-linha2{
+            background-color: red;
+        }
+    
+   </style>
+    <h1>Tabelas no HTML</h1>
+    <br>
+        <table border="1px" class="tabela1"> 
+            <thead><!--cabecalho da tabela-->
+                <tr><!--linha da tabela-->
+                    NOME
+                </tr>
+                <tr>
+                    TEL
+                </tr>
+                <tr>
+                    E-MAIL
+                </tr>
+            </thead>
+            <TBody>
+                <Tr>
+                <td> Ana Luiza </td>
+                <td>(75) 9999-9999</td>
+                <td>anal@gmail.com</td>
+            </Tr>
+            <Tr>
+                <td> Paul Menez </td>
+                <td>(71) 9999-9999</td>
+                <td>pal@gmail.com</td>
+            </Tr>
+            <Tr>
+                <td> Miakuda tuco </td>
+                <td>(41) 8199-9999</td>
+                <td>miaku@gmail.com</td>
+            </Tr>
+            </TBody>
+        </table >
+        <h2>
+            Tabela de Profissões
+        </h2>
+            <table border="1" width="400px" class="tabela2">
+                <tr class="tabela-linha2">
+                <td>Crago</td>
+                <td>Salário</td>
+                <td>Qualificações</td>
+            </tr>
+            <tr>
+                <td>Desenvolvedor de Jogos</td>
+                <td>R$ 7.000</td>
+                <td>Nivel Básico</td>
+            </tr>
+            <tr>
+                <td>Engenheiro Civil</td>
+                <td>R$ 11.296</td>
+                <td>Nível Superior</td>
+            </tr>
+            <tr>
+                <td>Téc em Mecânica</td>
+                <td>R$ 2.800</td>
+                <td>Nível Tácnico</td>
+            </tr>
+            </table>
+            <h2> Tabela de Funcionários</h2>
+            <table border="1"width="500px" class="tabela3">
+                <tr>
+                <Th colspan="4" bgcolor="#ff0000"><!--thead abreviado-->
+                    Tabela de cargos e Salários
+                </Th>
+                </tr>
+                <table border="1" width="500px">
+                <tr>
+                <td align="center">Nome</td>
+                <td align="center">Cargo</td>
+                <td align="center">Empresas</td>
+                <td align="center">Status</td>
+            </tr>
+            <tr>
+                <td align="center">Maria José</td>
+                <td align="center">Ass.adiministrativo</td>
+                <td align="center">VIPAL</td>
+                <td align="center"><button>Cadastrar</button></td>
+            </tr>
+            <tr>
+                <td align="center">Pero Noa</td>
+                <td align="center">Advogado</td>
+                <td align="center">VIVARA</td>
+                <td align="center"><button>Cadastrar</button></td>
+            </tr>
+            <tr>
+                <td align="center">Sergio Malandro</td>
+                <td align="center">Cozinheiro</td>
+                <td align="center">Cookie Piska</td>
+                <td align="center"><button>Cadastrar</button></td>
+            </tr>
+            </table>
+</body>
+</html>
