@@ -1,0 +1,40 @@
+*{
+    /*Reset de configurações do browser*/
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+ background-color: crimson;
+ 
+}
+
+nav{
+    background-color: crimson;
+    margin: 80px;
+
+}
+
+ul li{
+    
+    color: aliceblue;
+    list-style: none;
+    display: inline;
+    padding: 80px;
+    margin: 80px;
+}
+
+a{
+    cursor: pointer;
+    
+}
+div{
+    background-color: rgb(252, 0, 0);
+    display: inline-block;
+}
+p{
+    background-color: brown;
+     text-align: justify 
+    
+}

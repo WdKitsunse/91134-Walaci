@@ -1,0 +1,60 @@
+/*seletore*/
+/*zera as configurações*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    /*cor do texto */
+    color:#FF0000;
+
+    /*tipo da fonte*/
+    font-family:'Times New Roman', Times, serif;
+    /*tamanho da fonte*/
+    font-size: 28pt;
+    /*deixar em negrito*/
+    font-weight: bold;
+    /*Centralizar texto*/
+    text-align: center;
+    /*Respiro (Espaço) dos elementos*/
+    padding-bottom: 10px;
+    padding-top: 20px;
+    padding: 20px;
+
+}
+h2{
+    background-color: blue;
+    color: rgb(252, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+section{
+    margin: 15px;
+}
+
+p{
+ text-align: justify;
+ padding-top: 10px;
+ padding-bottom: 15px;
+
+}
+
+footer{
+    background-color: #FF0000;
+    margin: 15px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 5px;
+
+}
+h2:hover{
+    color: aqua;
+    background-color: aliceblue;
+
+
+}
+
