@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+h1{
+background-color: green;
+text-align: center;
+padding: 10px;
+}
+h2{
+    color: rgb(0, 0, 0);
+    text-align: justify;
+   
+}
+ul li{
+    
+   text-align: justify;
+    
+}
+
+.menu{
+    background-color: brown;
+    display: flex;
+    width: 82px;
+    
+}
+
