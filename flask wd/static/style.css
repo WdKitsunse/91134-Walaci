@@ -1,0 +1,17 @@
+*{
+   text-align: center;
+  
+}
+body { 
+    background-color: #e0f7fa; 
+    font-family: Arial; 
+    text-align: center; 
+    padding-top: 50px; 
+   }
+   h1 { 
+    color: #00796b; 
+   } 
+   
+h1{
+   text-align: center;
+}
